@@ -3,7 +3,7 @@ const camera= new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHe
 hlight = new THREE.AmbientLight(0x404040, 100);
 scene.add(hlight);
 const renderer = new THREE.WebGLRenderer();
-render.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 let loader = new THREE.GLTFLoader();
 loader.load('Model/myHome.gltf',function(gltf){
