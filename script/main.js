@@ -6,7 +6,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 let loader = new THREE.GLTFLoader();
-loader.load('Model/myHome.gltf',function(gltf){
+loader.load('Model/scene.gltf',function(gltf){
 	scene.add(gltf.scene);
 	renderer.render(scene,camera);
 });
