@@ -10,4 +10,5 @@ loader.load('Model/scene.gltf',function(gltf){
 	scene.add(gltf.scene);
 	renderer.render(scene,camera);
 });
+?
 
