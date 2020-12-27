@@ -1,8 +1,8 @@
 const scene= new THREE.Scene();
 const camera= new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight,0.1,1000);
-camera.position.x=800;
-camera.position.y=100;
-camera.position.z=1000;
+camera.position.x=100;
+camera.position.y=400;
+camera.position.z=700;
 hlight = new THREE.AmbientLight(0x404040, 100);
 scene.add(hlight);
 const renderer = new THREE.WebGLRenderer();
